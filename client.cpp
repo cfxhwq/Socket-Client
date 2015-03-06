@@ -66,7 +66,7 @@ int main(int argc, char *argv[]) {
 		return 1;
 	}
 
-	buf[num-1] = '\0';
+	buf[num] = '\0';
 	printf("server: %sa",buf);
 
 	close(sockfd);
